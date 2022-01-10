@@ -28,3 +28,9 @@ a, li{
   list-style: none;
   cursor: pointer;
 }
+
+@media screen and (max-width:860px) {
+    body{
+      background-image: url(../img/milesMorales.jpg);
+    }
+}
