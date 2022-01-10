@@ -21,13 +21,17 @@ nav{
     margin-top: 50px;
 }
 
+ li:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
 .pesquisa{
     height: 50%;
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    flex-direction: column; 
-    
+    flex-direction: column;   
 }
 
 .icon-pesquisa{
