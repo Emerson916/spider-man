@@ -1,9 +1,7 @@
-nav{
-    position: absolute;
+.menuLateral{
     width: 80px;
     height: 100%;
-    left: 0px;
-    top: 0px;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start ;

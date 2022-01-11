@@ -13,10 +13,9 @@
 
 body {
   width: 100%;
-  background-image: url(../img/spider-man.png);
+  background-image: url(../img/milesMorales.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
   background-repeat: no-repeat; 
   font-family: 'Risque', cursive;
   font-family: 'Roboto Slab', serif;
@@ -29,8 +28,8 @@ a, li{
   cursor: pointer;
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:1024px) {
     body{
-      background-image: url(../img/milesMorales.jpg);
+      background-position: center center;
     }
 }

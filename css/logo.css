@@ -1,6 +1,6 @@
 .logo{
     width: 100%;
-    margin: 230px auto 0px auto;
+    margin: 150px auto 0px auto;
     text-align: center;
 }
 
@@ -14,20 +14,14 @@
 .logo button{
     width: 200px;
     height: 40px;
-    display: flex;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
+    border-radius: 10px 0px 0px 0px;
     border: solid 1px var(--primary-color);
     background-color: rgba(29, 29, 29, 0.5);
-    color: #fff;
-    border-radius: 10px 0px 0px 0px;
     cursor: pointer;
+    color: #fff;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-       
 }
 
 .logo button:hover{
@@ -36,3 +30,8 @@
     background-color: rgba(29, 29, 29);
 }
 
+@media (max-width:500px){
+    .logo img{
+        height: 100px; 
+    }
+}

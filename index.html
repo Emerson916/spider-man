@@ -10,33 +10,32 @@
     <link rel="stylesheet" type="text/css" href="css/menuLateral.css" />
     <link rel="stylesheet" type="text/css" href="css/logo.css" />
     <link rel="stylesheet" type="text/css" href="css/menuHeader.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+
     <title>Spider-Man || Miles Morales</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <img src="img/marvel.png" class="marvelIMG" />
-        </div>
-        
-        <div>
-            <img src="img/spider.png" class="spiderIMG" />
-        </div>
-      
-        <input type="checkbox" id="check">
-        <label for="check" class="checkBtn">
-            <i class="fas fa-bars"></i>
-        </label>
+        <img src="img/marvel.png" class="marvelIMG" />
+        <img src="img/spider.png" class="spiderIMG" />
 
-        <ul class="itens-header">
-            <li class="itensMenuHeader">HOME</li>
-            <li class="itensMenuHeader">SINOPSE</li>
-            <li class="itensMenuHeader">ELENCO</li>
-        </ul>  
+        <nav id="nav">
+            <button id="btnMobile" class="btnMobile" onclick="menu()">
+               <span id="hamburguer"></span>
+            </button>
+
+            <ul class="menu">
+                <li class="itensMenuHeader">HOME</li>
+                <li class="itensMenuHeader">SINOPSE</li>
+                <li class="itensMenuHeader">ELENCO</li>
+            </ul>
+        </nav>
+
+
     </header>
 
-    <!-- <nav>
+    <!-- <nav class="menuLateral">
         <div class="foto">
             <a href="https://github.com/Emerson916">
                 <img src="https://github.com/Emerson916.png" class="perfil-foto" alt="imagemPerfilGit.png" />
