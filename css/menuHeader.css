@@ -11,8 +11,17 @@ header{
     -webkit-backdrop-filter: blur(10px);   
 }
 
+.git-foto{
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 460px;
+    max-height: 160px;
+}
+
 .marvelIMG{
     width: 80px;
+    margin-left: -200px;
 }
 
 .spiderIMG{
@@ -29,6 +38,13 @@ header{
 .btnMobile{
     display: none;
 }
+
+@media (max-width:900px){
+    .marvelIMG{
+        margin: 0px;
+    }
+}
+
 
 @media (max-width: 600px){
     .btnMobile{
