@@ -45,7 +45,6 @@ header{
     }
 }
 
-
 @media (max-width: 600px){
     .btnMobile{
         display: flex;
@@ -115,6 +114,3 @@ header{
         top: -7px;
     }
 }
-
-
-
