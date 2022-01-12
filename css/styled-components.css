@@ -28,6 +28,11 @@ a, li{
   cursor: pointer;
 }
 
+li:hover{
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+
 @media screen and (max-width:1024px) {
     body{
       background-position: center center;

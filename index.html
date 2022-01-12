@@ -23,7 +23,7 @@
 
         <nav id="nav">
             <button id="btnMobile" class="btnMobile" onclick="menu()">
-               <span id="hamburguer"></span>
+                <span id="hamburguer"></span>
             </button>
 
             <ul class="menu">
@@ -32,25 +32,22 @@
                 <li class="itensMenuHeader">ELENCO</li>
             </ul>
         </nav>
-
-
     </header>
 
-    <nav class="menuLateral">
-        <div class="foto">
-            <a href="https://github.com/Emerson916">
-                <img src="https://github.com/Emerson916.png" class="perfil-foto" alt="imagemPerfilGit.png" />
-            </a>
-        </div>
-
-        <ul class="itens-nav">
-            <li><img src="img/instagram.png" /></li>
-            <li><img src="img/twitter.png" /></li>
-            <li><img src="img/facebook.png" /></li>
-        </ul>
-
-        <div class="pesquisa">
-            <img src="img/search.png" class="icon-pesquisa" />
+    <nav class="menuLateral" >
+        <div class="foto" id="menuLateral">
+            <img src="https://github.com/Emerson916.png" class="perfil-foto" onclick="menuLateral()" alt="imagemPerfilGit.png" />
+            <div class="icons">
+            
+                
+                <ul class="itens-nav">
+                    <li><img src="img/instagram.png" /></li>
+                    <li><img src="img/twitter.png" /></li>
+                    <li><img src="img/facebook.png" /></li>  
+                </ul>
+    
+                <img src="img/search.png" class="icon-pesquisa" />
+            </div>
         </div>
     </nav>
 
